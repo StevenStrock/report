@@ -19,7 +19,7 @@
 	<!-- spring的配置文件，这里配置和业务逻辑有关的 -->
 	<!-- 数据源 事务控制等等 -->
 	<context:property-placeholder
-		location="classpath:jdbc-sqlserver.properties" />
+		location="classpath:jdbc.properties" /><!-- jdbc.properties -->
 		<!-- jdbc.properties -->
 	<bean id="poolDataSource"
 		class="com.mchange.v2.c3p0.ComboPooledDataSource">
